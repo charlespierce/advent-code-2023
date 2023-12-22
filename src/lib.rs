@@ -13,8 +13,8 @@
 // pub mod day_13;
 // pub mod day_14;
 // pub mod day_15;
-pub mod day_16;
-// pub mod day_17;
+// pub mod day_16;
+pub mod day_17;
 // pub mod day_18;
 // pub mod day_19;
 // pub mod day_20;
@@ -23,5 +23,7 @@ pub mod day_16;
 // pub mod day_23;
 // pub mod day_24;
 // pub mod day_25;
+
+mod dijkstra;
 
 aoc_runner_derive::aoc_lib! { year = 2023 }
